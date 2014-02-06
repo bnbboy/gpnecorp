@@ -1,98 +1,474 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="vindesign/bootstrap/docs-assets/ico/favicon.png">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+    <title>GPNE Corp.</title>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Uimockup by bnbboy</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vindesign/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vindesign/stylesheets/element.css">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="vindesign/stylesheets/carousel.css" rel="stylesheet">
+    
+    <!-- vin styles for this template -->
+    <link href="vindesign/stylesheets/vin.css" rel="stylesheet">
+    
   </head>
-
+  
+<!--NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR  --> 
+<!-- NAVBAR
+================================================== -->
   <body>
-    <a id="forkme_banner" href="https://github.com/bnbboy/uimockup">View on GitHub</a>
-    <div class="shell">
+    <div class="navbar-wrapper">
+      <div class="container">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Uimockup</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <img id ="logo" src ="vindesign/images/logo1.png" ></img>	
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+            </div>
+            
+            <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                  		<li><a href="#">Home</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Patents</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">News</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                              </ul>
+                        </li>
+                  </ul>
+             </div>
+          </div>
+        </div>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/bnbboy/uimockup/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/bnbboy/uimockup/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/bnbboy">bnbboy</a> can be found on <a href="https://github.com/bnbboy/uimockup">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
+      </div>
     </div>
 
-    
+
+<!--SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow SliderShow -->
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <div class="mycontainer">
+          <ol class="carousel-indicators">
+            <li id="minislide1" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li id="minislide2" data-target="#myCarousel" data-slide-to="1"></li>
+            <li id="minislide3" data-target="#myCarousel" data-slide-to="2"></li>
+          </ol><!--/.carousel-indicators -->
+      </div><!--/.mycontainer -->
+       
+       <!-- silde show -->
+      <div class="carousel-inner">
+      
+      	 <!-- silde 1 -->
+        <div class="item active">
+         	<div class="slider1">
+            </div> <!--/.slider1 -->
+        </div><!--/.item -->
+        
+      	<!-- silde 2 -->
+        <div class="item">
+  			<div class="slider2">
+        	</div> <!--/.slider1 -->
+        </div><!--/.item -->
+        
+        <!-- silde 3 -->
+        <div class="item">
+        	<div class="slider3">
+        	</div> <!--/.slider1 -->        
+        </div><!--/.item -->
+        
+     
+      </div> <!--/.carousel-inner -->
+    </div><!-- /.carousel -->
+
+<!--Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing Marketing -->
+
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+	<div class="mycontainer">
+    <div id="container"> <!--Main container for all the element-->    
+ 
+	 <!--element start-------------------------------------------------------------->    
+     <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+      
+      <!--element start-------------------------------------------------------------->    
+      <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+
+      <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+
+      <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+
+      <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+
+      <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+
+      <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+
+      <a href="http://www.google.com">    
+        <div class="element">
+          <div class="story">
+                <div class="thumbs-hovering">
+                		<div>View details &raquo;</div>
+                        <h2>Vinson's garden</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada
+                         magna mollis euismod. Nullam id dolor id nibh 
+                         ultricies vehicula ut id elit. Morbi leo risus, 
+                         porta ac consectetur ac, vestibulum at eros. 
+                         Praesent commodo cursus magna.</p> 
+                </div>
+                <div class= "postthumb"
+                	 style="background-image:		     
+                     url(vindesign/images/1302553196rain-garden.png)" >
+                </div>
+           </div><!-- /.story -->
+        </div><!-- /.element -->
+      </a> <!--/.a link warper for element-->
+      <!--element end--------------------------------------------------------------> 
+
+	</div> <!-- /.constrain -->
+    </div><!-- /.container -->
+       <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 GPNE Corp. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="vindesign/javascripts/jquery-1.9.0.min.js"></script>
+    <script src="vindesign/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vindesign/bootstrap/docs-assets/js/holder.js"></script>
+    <script src="vindesign/javascripts/fluid.min.js"></script>
+	<script src="vindesign/javascripts/element.min.js"></script>
+    <script>
+	  $(function(){
+		
+		var $container = $('#container');
+		
+		
+		  // add randomish size classes
+		  $container.find('.element').each(function(){
+			var $this = $(this),
+				number = parseInt( $this.find('.number').text(), 10 );
+			if ( number % 7 % 2 === 1 ) {
+			  $this.addClass('width2');
+			}
+			if ( number % 3 === 0 ) {
+			  $this.addClass('height2');
+			}
+		  });
+		
+		$container.isotope({
+		  itemSelector : '.element',
+		  masonry : {
+			columnWidth : 0
+		  },
+		  masonryHorizontal : {
+			rowHeight: 240
+		  },
+		  cellsByRow : {
+			columnWidth : 240,
+			rowHeight : 240
+		  },
+		  cellsByColumn : {
+			columnWidth : 240,
+			rowHeight : 240
+		  },
+		  getSortData : {
+			symbol : function( $elem ) {
+			  return $elem.attr('data-symbol');
+			},
+			category : function( $elem ) {
+			  return $elem.attr('data-category');
+			},
+			number : function( $elem ) {
+			  return parseInt( $elem.find('.number').text(), 10 );
+			},
+			weight : function( $elem ) {
+			  return parseFloat( $elem.find('.weight').text().replace( /[\(\)]/g, '') );
+			},
+			name : function ( $elem ) {
+			  return $elem.find('.name').text();
+			}
+		  }
+		});
+		
+		
+		  var $optionSets = $('#options .option-set'),
+			  $optionLinks = $optionSets.find('a');
+	
+		  $optionLinks.click(function(){
+			var $this = $(this);
+			// don't proceed if already selected
+			if ( $this.hasClass('selected') ) {
+			  return false;
+			}
+			var $optionSet = $this.parents('.option-set');
+			$optionSet.find('.selected').removeClass('selected');
+			$this.addClass('selected');
+	  
+			// make option object dynamically, i.e. { filter: '.my-filter-class' }
+			var options = {},
+				key = $optionSet.attr('data-option-key'),
+				value = $this.attr('data-option-value');
+			// parse 'false' as false boolean
+			value = value === 'false' ? false : value;
+			options[ key ] = value;
+			if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+			  // changes in layout modes need extra logic
+			  changeLayoutMode( $this, options )
+			} else {
+			  // otherwise, apply new options
+			  $container.isotope( options );
+			}
+			
+			return false;
+		  });
+	
+	
+		
+		  // change layout
+		  var isHorizontal = false;
+		  function changeLayoutMode( $link, options ) {
+			var wasHorizontal = isHorizontal;
+			isHorizontal = $link.hasClass('horizontal');
+	
+			if ( wasHorizontal !== isHorizontal ) {
+			  // orientation change
+			  // need to do some clean up for transitions and sizes
+			  var style = isHorizontal ? 
+				{ height: '80%', width: $container.width() } : 
+				{ width: 'auto' };
+			  // stop any animation on container height / width
+			  $container.filter(':animated').stop();
+			  // disable transition, apply revised style
+			  $container.addClass('no-transition').css( style );
+			  setTimeout(function(){
+				$container.removeClass('no-transition').isotope( options );
+			  }, 100 )
+			} else {
+			  $container.isotope( options );
+			}
+		  }
+	
+	
+		
+		  // change size of clicked element
+		  $container.delegate( '.element', 'click', function(){
+			$(this).toggleClass('large');
+			$container.isotope('reLayout');
+		  });
+	
+		  // toggle variable sizes of all elements
+		  $('#toggle-sizes').find('a').click(function(){
+			$container
+			  .toggleClass('variable-sizes')
+			  .isotope('reLayout');
+			return false;
+		  });
+	
+	
+		
+		  $('#insert a').click(function(){
+			var $newEls = $( fakeElement.getGroup() );
+			$container.isotope( 'insert', $newEls );
+	
+			return false;
+		  });
+	
+		  $('#append a').click(function(){
+			var $newEls = $( fakeElement.getGroup() );
+			$container.append( $newEls ).isotope( 'appended', $newEls );
+	
+			return false;
+		  });
+	
+	
+		var $sortBy = $('#sort-by');
+		$('#shuffle a').click(function(){
+		  $container.isotope('shuffle');
+		  $sortBy.find('.selected').removeClass('selected');
+		  $sortBy.find('[data-option-value="random"]').addClass('selected');
+		  return false;
+		});
+	
+	
+	  });
+	  </script>
   </body>
 </html>
