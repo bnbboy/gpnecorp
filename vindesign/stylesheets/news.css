@@ -27,7 +27,7 @@
 	padding-bottom: 14px;
 	padding-left: 14px;
 	color: #330099;
-
+	overflow-y: auto;
 }
 .text_bg{
 	position: relative;
@@ -56,5 +56,5 @@
 	text-align: center;
 }
 .news p{
-
+	
 }
