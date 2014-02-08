@@ -21,8 +21,8 @@
 	margin-left: 12%;
 	margin-right: 12%;
 	border-radius: 20px;
-	top: -186px;
-	padding-right: 0px;
+	top: -198px;
+	padding-right: 14px;
 	padding-bottom: 14px;
 	padding-left: 14px;
 	color: #330099;
@@ -40,8 +40,7 @@
 
 }
 
-.news span{
-	color: #F33;
+.news .sidebar-widget-header span{
 	font-size: x-large;
 }
 
@@ -56,9 +55,12 @@
 	
 }
 .news a{
-	color: #3CF;
+	color: #09F;
 	float: right;
 	text-decoration: none;
+	margin-right: 17px;
+	font-size: 12px;
+	font-style: italic;
 }
 
 
