@@ -17,21 +17,20 @@
 .news{
 	position: relative;
 	width: auto;
-	height: 230px;
+	height: 200px;
 	margin-left: 12%;
 	margin-right: 12%;
 	border-radius: 20px;
-	top: -210px;
-	padding-right: 14px;
+	top: -186px;
+	padding-right: 0px;
 	padding-bottom: 14px;
 	padding-left: 14px;
 	color: #330099;
-	overflow-y: auto;
 }
 .text_bg{
 	position: relative;
 	width: auto;
-	height: 250px;
+	height: 230px;
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: #222;
@@ -64,6 +63,9 @@
 
 
 .simple-scroll {
+position: relative;
+width: auto;
+height: 150px;
 overflow-x: hidden;
 }
 .simple-scroll::-webkit-scrollbar {
