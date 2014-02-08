@@ -10,9 +10,9 @@
 	width: 100%;
 	height: 300px;
 	background-color: #AAA;
-	background-image: url(../images/newsbg.png);	
-
-
+	background-image: url(../images/newsbg.png);
+	border-bottom-color: #FFFFFF;
+	border-spacing: 1px 1px;
 }
 .news{
 	position: relative;
