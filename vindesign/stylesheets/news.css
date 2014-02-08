@@ -58,3 +58,45 @@
 .news p{
 	
 }
+
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+::selection {
+background: #005691;
+color: #fff;
+text-shadow: none;
+}
+
+.front-hero .whats-new .scroller, .full-width-hero .whats-new .scroller {
+height: 20em;
+}
+.scroller {
+padding-right: 1em;
+overflow: auto;
+}
+.simple-scroll {
+overflow-x: hidden;
+}
+.simple-scroll::-webkit-scrollbar {
+width: 7px;
+}
+
+.simple-scroll::-webkit-scrollbar-thumb {
+background: #1466b5;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+-ms-border-radius: 7px;
+-o-border-radius: 7px;
+border-radius: 7px;
+}
+.simple-scroll::-webkit-scrollbar-track {
+background: #BBB;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+-ms-border-radius: 7px;
+-o-border-radius: 7px;
+border-radius: 7px;
+}
