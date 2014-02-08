@@ -27,7 +27,7 @@
 	padding-bottom: 14px;
 	padding-left: 14px;
 	color: #330099;
-	overflow-y:scroll;
+
 }
 .text_bg{
 	position: relative;
@@ -54,4 +54,7 @@
 	color: #F33;
 	font-size: x-large;
 	text-align: center;
+}
+.news p{
+
 }
