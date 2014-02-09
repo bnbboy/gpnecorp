@@ -8,14 +8,51 @@
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+#Home{
+	background-image: url(../images/home.png);
+	background-size: 44pt 19px;
+	background-repeat: no-repeat;
+	background-position: 4px 28px;
+}
+#Company{
+	background-image: url(../images/company.png);
+	background-size: 59pt auto;
+	background-repeat: no-repeat;
+	background-position: 6px 28px;
+}
+#Patents{
+	background-image: url(../images/patents.png);
+	background-size: 60pt auto;
+	background-repeat: no-repeat;
+	background-position: -1px 28px;
+}
+#Technology{
+	background-image: url(../images/technology.png);
+	background-size: 63pt auto;
+	background-repeat: no-repeat;
+	background-position: 11px 28px;
+}
+#News{
+	background-image: url(../images/news.png);
+	background-size: 58pt auto;
+	background-repeat: no-repeat;
+	background-position: -7px 28px;
+}
+#Contact{
+	background-image: url(../images/contact.png);
+	background-size: 60pt auto;
+	background-repeat: no-repeat;
+	background-position: 0px 28px;
+}
 .navbar-wrapper {
-  position: relative;
-  height:50px;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-top: 0px;
-  z-index: 20;
+	position: relative;
+	height: 50px;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: 0px;
+	z-index: 20;
+	
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -487,7 +524,7 @@ footer{
 	border-top-width: 0px;
 	color: #BBB;
 	font-style: normal;
-	background: -webkit-linear-gradient(top, #696c72, #333334);
+	background: -webkit-linear-gradient(top, #BBB, #000);
 	background: -moz-linear-gradient(top, #696c72, #333334);
 	background: -o-linear-gradient(top, #696c72, #333334);
 	background: -ms-linear-gradient(top, #696c72, #333334);
@@ -495,4 +532,8 @@ footer{
 	_background: none transparent no-scroll repeat;
 	padding-left: 10%;
 	padding-right: 10%;
+	min-height: 100px;
+}
+footer p{
+	margin-top: 30px;
 }
