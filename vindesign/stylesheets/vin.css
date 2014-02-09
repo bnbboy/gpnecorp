@@ -2,16 +2,91 @@
 /* CSS Document */
 
 
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  height:50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* regular nav bar menu text color and the ipad iphone drop down menu color*/
+.navbar-inverse 
+.navbar-nav>li>a {
+	color: #DDD;
+}
+/* regular nav bar menu text color and the ipad iphone drop down menu hover color*/
+.navbar-inverse li a:hover {
+	text-shadow: 0px 0px 5px #FFFFFF;
+}
+
+
 #logo{
 	height: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+/* the ipad iphone menu button border color*/
+.navbar-inverse .navbar-toggle { 
+/*border-color: #E78E1D;*/
+}
+/* the ipad iphone menu button 3 bars color*/
+.navbar-inverse .navbar-toggle .icon-bar {
+/*background-color: #E78E1D;*/
 }
 
 .navbar-nav{
 	margin-left: 10%;	
 	
 }
+
+
+/* CUSTOMIZE THE slider
+-------------------------------------------------- */
+.carousel {
+	height: 400px;
+/*	margin-bottom: 10px;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin-top: 5px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 500px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
 .slider1{
 
 	width: 100%;
@@ -117,6 +192,13 @@ ul, ol {
     position: relative;
     text-decoration: none;
 }*/
+
+
+
+
+/* marketing content
+--------------------------------------------------*/
+
 @media only screen and (min-width: 250px) {
 .col-lg-1,
   .col-lg-2,
@@ -287,8 +369,6 @@ ul, ol {
   
 }
 
-/* news content
---------------------------------------------------*/
 
 
 /* MARKETING CONTENT
