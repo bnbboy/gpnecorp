@@ -131,7 +131,7 @@ and (max-device-width : 568px) {
 /*iPhone 5 in portrait & landscape*/
 @media only screen 
 and (min-width : 0px) 
-and (max-width : 1024px) {
+and (max-width : 768px) {
 .news_container{
 	position: relative;
 	width: 100%;
