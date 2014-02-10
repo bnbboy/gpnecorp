@@ -6,7 +6,7 @@
 body {
 	padding-bottom: 40px;
 	color: #DDD;
-	background-color:#DDD;
+	background-color:#000;
 }
 
 
@@ -547,7 +547,7 @@ ul, ol {
 -------------------------------------------------- */
 footer{
 	border-top-width: 0px;
-	color: #BBB;
+	color: #FFF;
 	font-style: normal;
 	background: -webkit-linear-gradient(top, #BBB, #000);
 	background: -moz-linear-gradient(top, #696c72, #333334);
@@ -557,7 +557,7 @@ footer{
 	_background: none transparent no-scroll repeat;
 	padding-left: 10%;
 	padding-right: 10%;
-	min-height: 100px;
+	height: 300px;
 }
 footer p{
 	margin-top: 30px;
