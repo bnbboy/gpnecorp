@@ -6,6 +6,7 @@
 body {
 	padding-bottom: 40px;
 	color: #DDD;
+	background-color:#DDD;
 }
 
 
@@ -451,6 +452,7 @@ ul, ol {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 .mycontainer {
+	background-color:#DDD;
 	margin: 0 auto;
 }
 

@@ -50,6 +50,17 @@
 	font-style: normal;
 	margin-bottom: 4px;
 }
+.sidebar-widget-header{
+	border-bottom: 1px solid #888;
+	color: #555;
+	font-size: 1em;
+	font-family: georgia,serif;
+	font-style: italic;
+	font-weight: normal;
+	margin-bottom: .7em;
+	margin-top: 5px;
+}
+
 
 .news p{
 	color: #BBB;
@@ -73,7 +84,7 @@
 .simple-scroll {
 position: relative;
 width: auto;
-/*height: 150px;*/
+height: 150px;
 overflow-x: hidden;
 }
 .simple-scroll::-webkit-scrollbar {
@@ -98,34 +109,65 @@ border-radius: 7px;
 }
 
 
-.sidebar-widget-header{
-	border-bottom: 1px solid #888;
-	color: #555;
-	font-size: 1em;
-	font-family: georgia,serif;
-	font-style: italic;
-	font-weight: normal;
-	margin-bottom: .7em;
-	margin-top: 5px;
-}
 
 
-/*Retina iPad in portrait & landscape.*/
-@media only screen 
+
+/*/*Retina iPad in portrait & landscape.*/
+/*@media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 1)  { 
-/* STYLES GO HERE */
-
-
-}
+and (-webkit-min-device-pixel-ratio: 1)  {
+}*/
  
 /*iPhone 5 in portrait & landscape*/
-@media only screen 
+/*@media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 568px) {
+and (max-device-width : 568px) {	 
+}*/
 
-	 
+@media only screen 
+and (min-width : 769px)  {
+.news_container{
+	position: relative;
+	width: 100%;
+	height: 300px !important;
+	background-color: #AAA;
+	background-image: url(../images/newsbg.png);
+	border-bottom-color: #FFFFFF;
+	border-spacing: 1px 1px;
+}
+.news{
+	top: -198px;
+	position: relative;
+	width: auto;
+	height: 200px !important;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-right: 14px;
+	padding-left: 14px;
+	color: #330099;
+	border-radius: 20px;
+}
+
+.text_bg{
+	position: relative;
+	width: auto;
+	height: 230px !important;
+	margin-left: 8%;
+	margin-right: 8%;
+	background-color: #222;
+	border-radius: 20px;
+	opacity: 0.95;
+	top: 25px;
+
+}
+.simple-scroll {
+	height:150px;
+	overflow-y:visible;
+}
+.loadmore{
+	display:none;
+}
 }
 
 /*iPhone 5 in portrait & landscape*/
@@ -160,13 +202,12 @@ and (max-width : 768px) {
 }
 .simple-scroll {
 	height:auto;
-	
-}
-.news .simple-scroll {
 	overflow-y: hidden;
+	
 }
 
 .loadmore{
+	display:run-in;
 	color: #fff;
 	cursor: pointer;
 	position: relative;
