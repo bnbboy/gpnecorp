@@ -150,6 +150,34 @@
                 
   			 </div><!-- /.scroll bar -->
         </div><!-- /.news -->
+         <div class="loadmore" onclick="expendnews()">Load More<br>
+        	<img src="vindesign/images/icon-down-arrow.png" style="width:20px;" alt="" class="has-high-res">
+        </div><!-- /.load-more-button -->
+        <script type='text/javascript'>
+		
+			  function expendnews(){
+				  	var container = $('.news_container').height();
+					var bg = $('.text_bg').height();
+					var news = $('.news').height();
+					var news_text = $('.simple-scroll').height();
+					var height = (news_text+27)-news;
+					if(height!=1){
+						container=container+height;
+						bg=bg+height;
+						news=news+height;
+						
+						
+						document.getElementsByClassName('news_container')[0].style['height'] = container+'px';
+						document.getElementsByClassName('text_bg')[0].style['height'] =bg+'px';
+						document.getElementsByClassName('news')[0].style['height'] =news+'px';
+					}
+				
+					
+			
+
+			  }
+		
+		 </script>	
     </div><!-- /.news_container -->
             
             
