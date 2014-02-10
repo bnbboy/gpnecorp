@@ -15,17 +15,16 @@
 	border-spacing: 1px 1px;
 }
 .news{
+	top: -198px;
 	position: relative;
 	width: auto;
 	height: 200px;
 	margin-left: 10%;
 	margin-right: 10%;
-	border-radius: 20px;
-	top: -198px;
 	padding-right: 14px;
-	padding-bottom: 14px;
 	padding-left: 14px;
 	color: #330099;
+	border-radius: 20px;
 }
 .text_bg{
 	position: relative;
