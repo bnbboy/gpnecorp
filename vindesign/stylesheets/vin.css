@@ -7,6 +7,8 @@ body {
 	padding-bottom: 40px;
 	color: #DDD;
 	background-color:#000;
+	background-image: url(../images/try1.png);
+	background-size: 300px auto;
 }
 
 
@@ -78,6 +80,7 @@ body {
 /* regular nav bar menu text color and the ipad iphone drop down menu color*/
 .navbar-inverse 
 .navbar-nav>li>a {
+	font-size: 18px;
 	color: #DDD;
 }
 /* the whole nav bar background color and the bottom boarder color*/
@@ -556,7 +559,8 @@ footer{
 	_background: none transparent no-scroll repeat;*/
 	padding-left: 10%;
 	padding-right: 10%;
-	height: 300px;
+	height: 100px;
+	background-color:#000;
 	background-image: url(../images/try1.png);
 	background-size: 300px auto;
 }
