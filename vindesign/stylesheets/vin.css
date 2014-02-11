@@ -549,15 +549,16 @@ footer{
 	border-top-width: 0px;
 	color: #FFF;
 	font-style: normal;
-	background: -webkit-linear-gradient(top, #BBB, #000);
+	/*	background: -webkit-linear-gradient(top, #BBB, #000);
 	background: -moz-linear-gradient(top, #696c72, #333334);
 	background: -o-linear-gradient(top, #696c72, #333334);
 	background: -ms-linear-gradient(top, #696c72, #333334);
-	background: linear-gradient(top, #696c72, #333334);
-	_background: none transparent no-scroll repeat;
+	_background: none transparent no-scroll repeat;*/
 	padding-left: 10%;
 	padding-right: 10%;
 	height: 300px;
+	background-image: url(../images/try1.png);
+	background-size: 300px auto;
 }
 footer p{
 	margin-top: 30px;
