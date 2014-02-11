@@ -81,10 +81,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-.menu{
-	position: absolute;
-	margin-left: 183px;
-}
+
 .navbar-toggle{
 	position: absolute;
 	right: 5%;
@@ -119,6 +116,11 @@ body {
 	text-shadow: 0px 0 8px #FFF;
 	color: #FFF;
 }
+.navbar-collapse {
+position: absolute;
+margin-left: 183px;
+max-height: none;
+}
 
 
 #logo{
@@ -136,6 +138,7 @@ body {
 }
 
 .navbar-nav{
+	
 	margin-left: 20px;	
 	
 }
@@ -144,6 +147,11 @@ body {
 and (min-width : 0px) 
 and (max-width : 768px) {
 	/* regular nav bar menu text color and the ipad iphone drop down menu color*/
+.navbar-collapse {
+position: relative;
+margin-left: 0px;
+max-height: none;
+}
 .navbar-inverse 
 .navbar-nav>li>a {
 	font-size: 14px;
