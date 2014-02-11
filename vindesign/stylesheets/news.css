@@ -44,16 +44,17 @@
 }
 
 .news h2{
-	color: #FFF;
-	font-size: x-large;
+/*	color: #FFF;
+	
 	text-align: center;
 	font-style: normal;
-	margin-bottom: 4px;
+	margin-bottom: 4px;*/
 }
 .sidebar-widget-header{
+	text-align: center;
 	border-bottom: 1px solid #888;
-	color: #555;
-	font-size: 1em;
+	color: #FFF;
+	font-size: x-large;
 	font-family: Arial, sans-serif;
 	font-style: italic;
 	font-weight: normal;
