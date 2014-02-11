@@ -20,6 +20,136 @@ body {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .Home{
 	background-image: url(../images/home.png);
+	background-size: 61pt auto;
+	background-repeat: no-repeat;
+	background-position: 0px 30px;
+	height: 60px;
+}
+.Company{
+	background-image: url(../images/company.png);
+	background-size: 80pt auto;
+	background-repeat: no-repeat;
+	background-position: 3px 30px;
+	height: 60px;
+}
+.Patents{
+	background-image: url(../images/patents.png);
+	background-size: 84pt auto;
+	background-repeat: no-repeat;
+	background-position: -7px 30px;
+	height: 60px;
+}
+.Technology{
+	background-image: url(../images/technology.png);
+	background-size: 83pt auto;
+	background-repeat: no-repeat;
+	background-position: 9px 30px;
+	height: 60px;
+}
+.News{
+	background-image: url(../images/news.png);
+	background-size: 82pt auto;
+	background-repeat: no-repeat;
+	background-position: -15px 30px;
+	height: 60px;
+}
+.Contact{
+	background-image: url(../images/contact.png);
+	background-size: 81pt auto;
+	background-repeat: no-repeat;
+	background-position: -5px 30px;
+	height: 60px;
+}
+.navbar-wrapper {
+	position: relative;
+	height:100px;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: 0px;
+	z-index: 20;
+	
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menu{
+	position: absolute;
+	margin-left: 183px;
+}
+.navbar-toggle{
+	position: absolute;
+	right: 5%;
+}
+/* regular nav bar menu text color and the ipad iphone drop down menu color*/
+.navbar-inverse 
+.navbar-nav>li>a {
+	font-size: 20px;
+	color: #DDD;
+	
+}
+/* the whole nav bar background color and the bottom boarder color*/
+.navbar-inverse {
+	/*background-color: #222222;*/
+	/*border-color: #555;*/
+	background: -webkit-linear-gradient(top, #444, #111);
+	background: -moz-linear-gradient(top, #555, #111);
+	background: -o-linear-gradient(top, #555, #111);
+	background: -ms-linear-gradient(top, #555, #111);
+	background: linear-gradient(top, #555, #111);
+	overflow:hidden;
+}
+
+/* regular nav bar menu text color and the ipad iphone drop down menu hover color*/
+.navbar-inverse li a:hover{
+/*	background: -webkit-linear-gradient(top, #AAA, #222);
+	background: -moz-linear-gradient(top, #696c72, #333334);
+	background: -o-linear-gradient(top, #696c72, #333334);
+	background: -ms-linear-gradient(top, #696c72, #333334);
+	background: linear-gradient(top, #696c72, #333334);
+	_background: none transparent no-scroll repeat;*/
+	text-shadow: 0px 0 8px #FFF;
+	color: #FFF;
+}
+
+
+#logo{
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* the ipad iphone menu button border color*/
+.navbar-inverse .navbar-toggle { 
+/*border-color: #E78E1D;*/
+}
+/* the ipad iphone menu button 3 bars color*/
+.navbar-inverse .navbar-toggle .icon-bar {
+/*background-color: #E78E1D;*/
+}
+
+.navbar-nav{
+	margin-left: 20px;	
+	
+}
+/*iPhone 5 to ipad  in portrait*/
+@media only screen 
+and (min-width : 0px) 
+and (max-width : 768px) {
+	/* regular nav bar menu text color and the ipad iphone drop down menu color*/
+.navbar-inverse 
+.navbar-nav>li>a {
+	font-size: 14px;
+}
+.Home{
+	background-image: url(../images/home.png);
 	background-size: 44pt 19px;
 	background-repeat: no-repeat;
 	background-position: 4px 28px;
@@ -54,82 +184,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: 0px 28px;
 }
-.navbar-wrapper {
-	position: relative;
-	height: 50px;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin-top: 0px;
-	z-index: 20;
-	
-}
 
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper .container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.navbar-wrapper .navbar {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-
-/* regular nav bar menu text color and the ipad iphone drop down menu color*/
-.navbar-inverse 
-.navbar-nav>li>a {
-	font-size: 18px;
-	color: #DDD;
-}
-/* the whole nav bar background color and the bottom boarder color*/
-.navbar-inverse {
-	/*background-color: #222222;*/
-	/*border-color: #555;*/
-	background: -webkit-linear-gradient(top, #555, #111);
-	background: -moz-linear-gradient(top, #555, #111);
-	background: -o-linear-gradient(top, #555, #111);
-	background: -ms-linear-gradient(top, #555, #111);
-	background: linear-gradient(top, #555, #111);
-}
-
-/* regular nav bar menu text color and the ipad iphone drop down menu hover color*/
-.navbar-inverse li a:hover{
-	background: -webkit-linear-gradient(top, #AAA, #222);
-	background: -moz-linear-gradient(top, #696c72, #333334);
-	background: -o-linear-gradient(top, #696c72, #333334);
-	background: -ms-linear-gradient(top, #696c72, #333334);
-	background: linear-gradient(top, #696c72, #333334);
-	_background: none transparent no-scroll repeat;
-	text-shadow: 0px 0 3px #FFF;
-	color: #FFF;
-}
-
-
-#logo{
-	height: 30px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-/* the ipad iphone menu button border color*/
-.navbar-inverse .navbar-toggle { 
-/*border-color: #E78E1D;*/
-}
-/* the ipad iphone menu button 3 bars color*/
-.navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #E78E1D;*/
-}
-
-.navbar-nav{
-	margin-left: 20px;	
-	
-}
-@media (min-width: 768px)
-.navbar-collapse {
-width: auto;
-border-top: 0;
-box-shadow: none;
 }
 
 /* CUSTOMIZE THE slider
@@ -250,20 +305,6 @@ ul, ol {
 }
 
 
-/*story content */
-/*.story{
-	width:240px;
-	height:400px;
-	margin: 5px;
-    background: none repeat scroll 0% 0% rgb(255, 255, 255);
-    border: 1px solid rgb(183, 192, 199);
-    color: rgb(136, 136, 136);
-    float: left;
-    font-size: 0.9em;
-    padding: 6px;
-    position: relative;
-    text-decoration: none;
-}*/
 
 
 
@@ -271,97 +312,6 @@ ul, ol {
 /* marketing content
 --------------------------------------------------*/
 
-@media only screen and (min-width: 250px) {
-.col-lg-1,
-  .col-lg-2,
-  .col-lg-3,
-  .col-lg-4,
-  .col-lg-5,
-  .col-lg-6,
-  .col-lg-7,
-  .col-lg-8,
-  .col-lg-9,
-  .col-lg-10,
-  .col-lg-11,
-  .col-lg-12 {
-    float: left;
-
-}
-
-.col-lg-3 {
-    width: 100%;
-}
-
-}
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
-@media only screen and (min-width: 500px) {
-.col-lg-1,
-  .col-lg-2,
-  .col-lg-3,
-  .col-lg-4,
-  .col-lg-5,
-  .col-lg-6,
-  .col-lg-7,
-  .col-lg-8,
-  .col-lg-9,
-  .col-lg-10,
-  .col-lg-11,
-  .col-lg-12 {
-    float: left;
-
-}
-
-.col-lg-3 {
-    width: 50%;
-}
-
-}
-
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
-
-@media only screen and (min-width: 750px) {
-.col-lg-1,
-  .col-lg-2,
-  .col-lg-3,
-  .col-lg-4,
-  .col-lg-5,
-  .col-lg-6,
-  .col-lg-7,
-  .col-lg-8,
-  .col-lg-9,
-  .col-lg-10,
-  .col-lg-11,
-  .col-lg-12 {
-    float: left;
-
-}
-
-.col-lg-3 {
-    width: 33.33%;
-}
-}
-
-@media only screen and (min-width: 1000px) {
-.col-lg-1,
-  .col-lg-2,
-  .col-lg-3,
-  .col-lg-4,
-  .col-lg-5,
-  .col-lg-6,
-  .col-lg-7,
-  .col-lg-8,
-  .col-lg-9,
-  .col-lg-10,
-  .col-lg-11,
-  .col-lg-12 {
-    float: left;
-
-}
-
-.col-lg-3 {
-    width: 25%;
-}
-}
 
 
 .marketing{
