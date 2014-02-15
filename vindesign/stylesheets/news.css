@@ -121,12 +121,12 @@ and (min-width : 769px)  {
 }
 
 .sidebar-widget-header{
-	color: #B0EEE7 !important;
+	/*color: #B0EEE7 !important;*/
 /*	border-bottom: 0px solid #888;*/
 }
 .news p{
 
-	color: #B0EEE7 !important;
+	/*color: #B0EEE7 !important;*/
 	
 }
 .news{
@@ -191,18 +191,18 @@ and (min-width : 769px)  {
 }
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
 z-index: 2;
-color: #B8ECE8;
+/*color: #B8ECE8;*/
 background-color: rgba(0, 0, 0, 0.64);
 border-color: rgba(102, 103, 107, 0);
 }
-.list-group-item {
+/*.list-group-item {
 background-color: #FFF;
 border: 1px solid rgba(221, 221, 221, 0);
 
-}
-a.list-group-item .list-group-item-heading {
+}*/
+/*a.list-group-item .list-group-item-heading {
 color: rgba(10, 71, 61, 0.74);
-}
+}*/
 }
 /*iPhone 5 to ipad  in portrait*/
 @media only screen 
@@ -236,8 +236,9 @@ and (max-width : 768px) {
 	margin-left: 0%;
 	margin-right: 0%;
 	border-radius: 0px;
-	background-color: #222;
+	background: -webkit-linear-gradient(top, #BBB, #000);
 	top: 0px;/*shift from 24 px down to 0px, from browser view to mobile view*/
+	opacity:1;
 
 }
 .allnewsbutton{
@@ -268,6 +269,11 @@ and (max-width : 768px) {
 .loadmore img{
 	margin-top: -16px;	
 }
-
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+z-index: 2;
+color: #B8ECE8;
+background-color: rgba(0, 0, 0, 0.64);
+border-color: rgba(102, 103, 107, 0);
+}
 	 
 }
