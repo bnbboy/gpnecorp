@@ -11,7 +11,7 @@
 	height: 300px;
 	background-color: #AAA;
 	background-image: url(../images/newsbg.png);
-	border-bottom-color: #FFFFFF;
+/*	border-bottom-color: #FFFFFF;*/
 	border-spacing: 1px 1px;
 }
 
@@ -28,14 +28,17 @@
 }
 .sidebar-widget-header{
 	text-align: center;
-	border-bottom: 1px solid #888;
+/*	border-bottom: 1px solid #888;*/
 	color: #FFF;
 	font-size: x-large;
-	font-family: Arial, sans-serif;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 /*	font-style: italic;*/
 	font-weight: normal;
 	margin-bottom: .7em;
-	margin-top: 5px;
+	margin-top: 5px; 
+}
+.news h4{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 
 
@@ -43,7 +46,8 @@
 	color: #BBB;
 	font-size: 15px;
 	line-height: 20px;
-	border-bottom: 0px solid #888;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	/*border-bottom: 0px solid #888;*/
 }
 .date{
 /*	color: #09F;*/
@@ -113,15 +117,16 @@ and (min-width : 769px)  {
 	height: 300px !important;
 	background-color: #AAA;
 	background-image: url(../images/newsbg.png);
-	border-bottom-color: #FFFFFF;
+/*	border-bottom-color: #FFFFFF;*/
 	border-spacing: 1px 1px;
 }
 
 .sidebar-widget-header{
-	border-bottom: 0px solid #888;
+/*	border-bottom: 0px solid #888;*/
 }
 .news p{
-	border-bottom: 1px solid #888;
+
+	color: #276456;
 	
 }
 .news{
@@ -143,9 +148,9 @@ and (min-width : 769px)  {
 	margin-right: auto;
 	width: 600px;
 	height: 230px !important;
-	background-color: #000;
+	background-color: #00FFD6;
 	/*	border-radius: 20px;*/
-	opacity: 0.95;
+	opacity: 0.15;
 	top: 28px;
 }
 .simple-scroll {
@@ -162,16 +167,40 @@ and (min-width : 769px)  {
 	margin-right: auto;
 	width: 600px;
 	position: relative;
-	height: 30px;
+	height: 20px;
 	text-align: right;
 	padding-right: 29px;
 	margin-top: 0px;
-	top: 18px;
+	top: 25px;
 	left: 2px;
 }
-.allnewsbutton button{
-	color: #EEEEEE;
-	background-color: #888888;
+.allnewsbutton a{
+	height: 20px;
+	line-height: 5px;
+	background-color: #131E27;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+.allnewsbutton a:hover{
+	height: 20px;
+	line-height: 5px;
+	background-color: #428BCA;
+	color: #00FF66;
+	opacity:1;
+}
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+z-index: 2;
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0.25);
+border-color: rgba(102, 103, 107, 0);
+}
+.list-group-item {
+background-color: #FFF;
+border: 1px solid rgba(221, 221, 221, 0);
+
+}
+a.list-group-item .list-group-item-heading {
+color: rgba(10, 71, 61, 0.74);
 }
 }
 /*iPhone 5 to ipad  in portrait*/
