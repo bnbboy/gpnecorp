@@ -238,7 +238,7 @@ and (min-width : 569px)  {
 and (min-width : 0px) 
 and (max-width : 568px) {
 .slider1{
-	width:568px;
+	width:400px;
 	height: 400px;
 	background-repeat: repeat-x;
 	background-image: url(../images/slider1a.png);
