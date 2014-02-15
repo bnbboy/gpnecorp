@@ -34,7 +34,6 @@
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 /*	font-style: italic;*/
 	font-weight: normal;
-	margin-bottom: .7em;
 	margin-top: 5px; 
 }
 .news h4{
@@ -122,11 +121,12 @@ and (min-width : 769px)  {
 }
 
 .sidebar-widget-header{
+	color: #B0EEE7 !important;
 /*	border-bottom: 0px solid #888;*/
 }
 .news p{
 
-	color: #276456;
+	color: #B0EEE7 !important;
 	
 }
 .news{
@@ -148,13 +148,14 @@ and (min-width : 769px)  {
 	margin-right: auto;
 	width: 600px;
 	height: 230px !important;
-	background-color: #00FFD6;
-	/*	border-radius: 20px;*/
-	opacity: 0.15;
+/*	background-color: #00FFD6;*/
+	border-radius: 3px;
+	background-color: rgba(1, 4, 19, 0.56);
+	opacity: 0.65;
 	top: 28px;
 }
 .simple-scroll {
-	height: 150px;
+	height: 170px;
 	overflow-y: visible;
 }
 .loadmore{
@@ -171,7 +172,7 @@ and (min-width : 769px)  {
 	text-align: right;
 	padding-right: 29px;
 	margin-top: 0px;
-	top: 25px;
+	top: -164px;
 	left: 2px;
 }
 .allnewsbutton a{
@@ -184,14 +185,14 @@ and (min-width : 769px)  {
 .allnewsbutton a:hover{
 	height: 20px;
 	line-height: 5px;
-	background-color: #428BCA;
-	color: #00FF66;
+	background-color: #131E27;
+	color: #B0EEE7 !important;
 	opacity:1;
 }
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
 z-index: 2;
-color: #ffffff;
-background-color: rgba(0, 0, 0, 0.25);
+color: #B8ECE8;
+background-color: rgba(0, 0, 0, 0.64);
 border-color: rgba(102, 103, 107, 0);
 }
 .list-group-item {
